@@ -1,0 +1,153 @@
+[
+    {
+        "id": 1,
+        "name": "Grilled Chicken Salad",
+        "img": "https://i.ibb.co.com/MRZQ7ky/alexander-mils-SNLf-VYm-L8os-unsplash.jpg",
+        "title": "Healthy Grilled Chicken with Fresh Veggies",
+        "ingredients": [
+            "Chicken Breast",
+            "Lettuce",
+            "Tomatoes",
+            "Cucumber",
+            "Olive Oil",
+            "Lemon"
+        ],
+        "time": "30 mins",
+        "calories": "350 kcal"
+    },
+    {
+        "id": 2,
+        "name": "Avocado Toast",
+        "img": "https://i.ibb.co.com/NsLPBnv/alpha-rad-GP85-I92wsrs-unsplash.jpg",
+        "title": "Creamy Avocado Spread on Whole Grain Bread",
+        "ingredients": [
+            "Avocado",
+            "Bread",
+            "Salt",
+            "Pepper",
+            "Lime Juice"
+        ],
+        "time": "10 mins",
+        "calories": "250 kcal"
+    },
+    {
+        "id": 3,
+        "name": "Vegetable Stir Fry",
+        "img": "https://i.ibb.co.com/gPbf2CX/roger-ce-m-Ed-PYOvtv-Hs-unsplash.jpg",
+        "title": "Quick and Easy Veggie Stir Fry",
+        "ingredients": [
+            "Broccoli",
+            "Carrot",
+            "Bell Peppers",
+            "Soy Sauce",
+            "Garlic"
+        ],
+        "time": "20 mins",
+        "calories": "200 kcal"
+    },
+    {
+        "id": 4,
+        "name": "Smoothie Bowl",
+        "img": "https://i.ibb.co.com/NFHtDzZ/none-other-1a-V-db-XWoi-M-unsplash.jpg",
+        "title": "Refreshing Berry Smoothie with Toppings",
+        "ingredients": [
+            "Banana",
+            "Strawberries",
+            "Blueberries",
+            "Almond Milk",
+            "Granola"
+        ],
+        "time": "15 mins",
+        "calories": "300 kcal"
+    },
+    {
+        "id": 5,
+        "name": "Classic Pancakes",
+        "img": "https://i.ibb.co.com/dmQNrbk/jakob-dalbjorn-Ge-Jrusy-Wal8-unsplash.jpg",
+        "title": "Fluffy Pancakes with Syrup and Butter",
+        "ingredients": [
+            "Flour",
+            "Milk",
+            "Eggs",
+            "Sugar",
+            "Butter",
+            "Syrup"
+        ],
+        "time": "25 mins",
+        "calories": "400 kcal"
+    },
+    {
+        "id": 6,
+        "name": "Spaghetti Bolognese",
+        "img": "https://i.ibb.co.com/fr2F7nG/louis-hansel-Bj6-P-vzf2z0-unsplash.jpg",
+        "title": "Rich and Savory Spaghetti Bolognese",
+        "ingredients": [
+            "Spaghetti",
+            "Ground Beef",
+            "Tomato Sauce",
+            "Onion",
+            "Garlic"
+        ],
+        "time": "40 mins",
+        "calories": "550 kcal"
+    },
+    {
+        "id": 7,
+        "name": "Caesar Salad",
+        "img": "https://i.ibb.co.com/yqt95kL/nima-naseri-a1-Yz9-Bp-AIh-E-unsplash.jpg",
+        "title": "Classic Caesar Salad with Croutons",
+        "ingredients": [
+            "Romaine Lettuce",
+            "Parmesan Cheese",
+            "Croutons",
+            "Caesar Dressing"
+        ],
+        "time": "15 mins",
+        "calories": "350 kcal"
+    },
+    {
+        "id": 8,
+        "name": "Chicken Wrap",
+        "img": "https://i.ibb.co.com/3yBQ5r2/farhad-ibrahimzade-Kp-Ol9j-V2a-JM-unsplash.jpg",
+        "title": "Tasty Chicken Wrap with Veggies",
+        "ingredients": [
+            "Tortilla",
+            "Chicken",
+            "Lettuce",
+            "Tomato",
+            "Ranch Dressing"
+        ],
+        "time": "20 mins",
+        "calories": "400 kcal"
+    },
+    {
+        "id": 9,
+        "name": "Chocolate Brownie",
+        "img": "https://i.ibb.co.com/DKx6SGg/gary-lee-b-FYfh-EGobd-Q-unsplash.jpg",
+        "title": "Rich and Fudgy Chocolate Brownie",
+        "ingredients": [
+            "Chocolate",
+            "Butter",
+            "Sugar",
+            "Flour",
+            "Eggs"
+        ],
+        "time": "35 mins",
+        "calories": "450 kcal"
+    },
+    {
+        "id": 10,
+        "name": "Grilled Salmon",
+        "img": "https://i.ibb.co.com/b1575vt/you-le-CAi-TZ4kyw-A4-unsplash.jpg",
+        "title": "Perfectly Grilled Salmon with Lemon",
+        "ingredients": [
+            "Salmon",
+            "Olive Oil",
+            "Garlic",
+            "Lemon",
+            "Herbs"
+        ],
+        "time": "25 mins",
+        "calories": "400 kcal"
+    }
+]
