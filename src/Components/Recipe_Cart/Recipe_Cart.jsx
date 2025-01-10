@@ -2,10 +2,10 @@ import PropTypes from 'prop-types';
 import { MdOutlineWatchLater } from "react-icons/md";
 import { RiFireLine } from "react-icons/ri";
 
-const Recipe_Cart = ({ recipe }) => {
+const Recipe_Cart = ({ recipe, handle_recipe_cart }) => {
     const { name, img, title, ingredients, time, calories } = recipe;
     return (
-            <div className='border border-[#28282833] rounded-2xl p-6 w-[379px]'>
+            <div className='border border-[#28282833] rounded-2xl p-6 w-[379px] mb-5'>
                 <img className='w-[331px] h-[200px] rounded-2xl' src={img} alt="" />
                 <h3 className='text-xl font-semibold text-[#282828] mt-6'>{name}</h3>
                 <p className='text-[#878787] mt-4'>{title}</p>
@@ -27,12 +27,13 @@ const Recipe_Cart = ({ recipe }) => {
                         <p>{calories}</p>
                     </div>
                 </div>
-                <button className='text-[18px] bg-[#0BE58A] mt-7 py-[13px] px-6 rounded-full'>Want to Cook</button>
+                <button onClick={() => handle_recipe_cart (recipe)} className='text-[18px] bg-[#0BE58A] mt-7 py-[13px] px-6 rounded-full'>Want to Cook</button>
             </div>
     );
 };
 
 Recipe_Cart.propTypes = {
-    recipe: PropTypes.object.isRequired
+    recipe: PropTypes.object.isRequired,
+    handle_recipe_cart: PropTypes.func.isRequired
 }
 export default Recipe_Cart;
