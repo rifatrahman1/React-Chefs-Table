@@ -1,6 +1,11 @@
 import PropTypes from 'prop-types';
 
-const Sidebar = ({ recipe_queue, handle_remove_recipe, preparing_recipe, handle_time_and_calories, total_calories, total_time }) => {
+const Sidebar = ({ recipe_queue, 
+    handle_remove_recipe,
+    preparing_recipe, 
+    handle_time_and_calories, 
+    total_calories, 
+    total_time }) => {
     return (
         <div className="col-span-2 border border-[#28282833] rounded-2xl">
             <h1 className="text-2xl font-semibold text-center mt-8">Wand to Cook: {recipe_queue.length}</h1>
@@ -21,8 +26,8 @@ const Sidebar = ({ recipe_queue, handle_remove_recipe, preparing_recipe, handle_
                                 <tr className='hover' key={idx}>
                                     <th>{idx + 1}</th>
                                     <td>{recipe.name}</td>
-                                    <td>{recipe.time}</td>
-                                    <td>{recipe.calories}</td>
+                                    <td>{recipe.time} mins</td>
+                                    <td>{recipe.calories} kcal</td>
                                     <td>
                                         <button onClick={() => {
                                             handle_remove_recipe(recipe.id)
@@ -63,8 +68,8 @@ const Sidebar = ({ recipe_queue, handle_remove_recipe, preparing_recipe, handle_
                     <tr className=''>
                         <th></th>
                         <th></th>
-                        <th>Total time = {total_time}</th>
-                        <th>Total calories = {total_calories}</th>
+                        <th>Total time = {total_time} mins</th>
+                        <th>Total calories = {total_calories} kcal</th>
                     </tr>
                 </table>
             </div>

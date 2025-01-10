@@ -14,9 +14,10 @@ function App() {
   const [total_calories, set_total_calories] = useState(0);
 
   const handle_time_and_calories = (time, calories) => {
-    set_total_time(total_time + time);
-    set_total_calories (total_calories + calories);
-  }
+    console.log('addeting time..', time, 'addedting calories...', calories);
+    set_total_time(prevTime => prevTime + time);
+    set_total_calories(prevCalories => prevCalories + calories);
+}
 
   const handle_remove_recipe = (id) => {
     // fine whice recipe to remove

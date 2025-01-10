@@ -12,8 +12,8 @@
             "Olive Oil",
             "Lemon"
         ],
-        "time": "30 mins",
-        "calories": "350 kcal"
+        "time": 30,
+        "calories": 350
     },
     {
         "id": 2,
@@ -27,8 +27,8 @@
             "Pepper",
             "Lime Juice"
         ],
-        "time": "10 mins",
-        "calories": "250 kcal"
+        "time": 10,
+        "calories": 250
     },
     {
         "id": 3,
@@ -42,8 +42,8 @@
             "Soy Sauce",
             "Garlic"
         ],
-        "time": "20 mins",
-        "calories": "200 kcal"
+        "time": 20,
+        "calories": 200
     },
     {
         "id": 4,
@@ -57,8 +57,8 @@
             "Almond Milk",
             "Granola"
         ],
-        "time": "15 mins",
-        "calories": "300 kcal"
+        "time": 15,
+        "calories": 300
     },
     {
         "id": 5,
@@ -73,8 +73,8 @@
             "Butter",
             "Syrup"
         ],
-        "time": "25 mins",
-        "calories": "400 kcal"
+        "time": 25,
+        "calories": 400
     },
     {
         "id": 6,
@@ -88,8 +88,8 @@
             "Onion",
             "Garlic"
         ],
-        "time": "40 mins",
-        "calories": "550 kcal"
+        "time": 40,
+        "calories": 550
     },
     {
         "id": 7,
@@ -102,8 +102,8 @@
             "Croutons",
             "Caesar Dressing"
         ],
-        "time": "15 mins",
-        "calories": "350 kcal"
+        "time": 15,
+        "calories": 350
     },
     {
         "id": 8,
@@ -117,8 +117,8 @@
             "Tomato",
             "Ranch Dressing"
         ],
-        "time": "20 mins",
-        "calories": "400 kcal"
+        "time": 20,
+        "calories": 400
     },
     {
         "id": 9,
@@ -132,8 +132,8 @@
             "Flour",
             "Eggs"
         ],
-        "time": "35 mins",
-        "calories": "450 kcal"
+        "time": 35,
+        "calories": 450
     },
     {
         "id": 10,
@@ -147,7 +147,7 @@
             "Lemon",
             "Herbs"
         ],
-        "time": "25 mins",
-        "calories": "400 kcal"
+        "time": 25,
+        "calories": 400
     }
 ]

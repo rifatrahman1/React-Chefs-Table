@@ -20,11 +20,11 @@ const Recipe_Cart = ({ recipe, handle_recipe_cart }) => {
                 <div className='flex gap-5'>
                     <div className='flex items-center gap-2 text-[#282828CC]'>
                         <MdOutlineWatchLater />
-                        <p>{time}</p>
+                        <p>{time} mins</p>
                     </div>
                     <div className='flex items-center gap-2 text-[#282828CC]'>
                         <RiFireLine />
-                        <p>{calories}</p>
+                        <p>{calories} kcal</p>
                     </div>
                 </div>
                 <button onClick={() => handle_recipe_cart (recipe)} className='text-[18px] btn bg-[#0BE58A] mt-7 py-[13px] px-6 rounded-full'>Want to Cook</button>
