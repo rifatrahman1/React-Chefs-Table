@@ -14,7 +14,7 @@ const All_Recipe = ({ handle_recipe_cart }) => {
             })
     }, [])
     return (
-        <div className="col-span-2">
+        <div className="col-span-3">
             <div className="grid grid-cols-2 gap-">
                 {recipes.map((recipe) => (
                     <Recipe_Cart handle_recipe_cart={handle_recipe_cart} key={recipe.id} recipe={recipe} />

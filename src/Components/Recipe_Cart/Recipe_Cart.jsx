@@ -27,7 +27,7 @@ const Recipe_Cart = ({ recipe, handle_recipe_cart }) => {
                         <p>{calories}</p>
                     </div>
                 </div>
-                <button onClick={() => handle_recipe_cart (recipe)} className='text-[18px] bg-[#0BE58A] mt-7 py-[13px] px-6 rounded-full'>Want to Cook</button>
+                <button onClick={() => handle_recipe_cart (recipe)} className='text-[18px] btn bg-[#0BE58A] mt-7 py-[13px] px-6 rounded-full'>Want to Cook</button>
             </div>
     );
 };
